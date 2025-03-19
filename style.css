@@ -1,0 +1,74 @@
+/* General styles */
+html, body {
+    background-color: #222831;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #EEEEEE;
+}
+
+/* Container styling */
+.container {
+    background-color: #393E46;
+    width: 50%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Layout adjustments */
+.innerdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* h1 styling */
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Task input and button container */
+.tasks-inp {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+/* Input field styling */
+.input-box {
+    flex: 1; /* Expands to fill space */
+    padding: 12px;
+    border: 2px solid #00ADB5;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    background-color: #393E46;
+    transition: 0.3s;
+}
+
+/* When input is focused */
+.input-box:focus {
+    border-color: #00FFC6;
+    box-shadow: 0 0 10px rgba(0, 255, 198, 0.5);
+}
+
+/* Placeholder style */
+.input-box::placeholder {
+    color: #B0BEC5;
+    font-style: italic;
+}
+
+/* Button styling */
+.btn {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
